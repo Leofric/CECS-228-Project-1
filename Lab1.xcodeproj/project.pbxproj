@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CC1D04011D750E4000223EB4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC1D04001D750E4000223EB4 /* main.cpp */; };
+		CC1D04091D75107900223EB4 /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC1D04071D75107900223EB4 /* Card.cpp */; };
+		CC1D040C1D752E3E00223EB4 /* CardDeck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC1D040A1D752E3E00223EB4 /* CardDeck.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		CC1D03FD1D750E4000223EB4 /* Lab1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab1; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC1D04001D750E4000223EB4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CC1D04071D75107900223EB4 /* Card.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
+		CC1D04081D75107900223EB4 /* Card.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Card.hpp; sourceTree = "<group>"; };
+		CC1D040A1D752E3E00223EB4 /* CardDeck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CardDeck.cpp; sourceTree = "<group>"; };
+		CC1D040B1D752E3E00223EB4 /* CardDeck.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CardDeck.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				CC1D04001D750E4000223EB4 /* main.cpp */,
+				CC1D04071D75107900223EB4 /* Card.cpp */,
+				CC1D04081D75107900223EB4 /* Card.hpp */,
+				CC1D040A1D752E3E00223EB4 /* CardDeck.cpp */,
+				CC1D040B1D752E3E00223EB4 /* CardDeck.hpp */,
 			);
 			path = Lab1;
 			sourceTree = "<group>";
@@ -88,6 +98,9 @@
 		CC1D03F51D750E3F00223EB4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Alex Berthon";
 				TargetAttributes = {
@@ -118,7 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC1D040C1D752E3E00223EB4 /* CardDeck.cpp in Sources */,
 				CC1D04011D750E4000223EB4 /* main.cpp in Sources */,
+				CC1D04091D75107900223EB4 /* Card.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +254,7 @@
 				CC1D04061D750E4000223EB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
