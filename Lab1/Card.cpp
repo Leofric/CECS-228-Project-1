@@ -16,7 +16,7 @@ private:
 public:
     Card(){
         value = 0;
-        suit = 'X'; //placeholder
+        suit = 'X';
     }
 
     Card(int v, char s){

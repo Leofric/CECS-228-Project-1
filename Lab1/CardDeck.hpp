@@ -40,7 +40,7 @@ public:
     
     /*
      This function displays the card at the given index in the array
-     @param n the index, type int.
+     @param n the index, type int
      */
     void displayCardAt(int n);
 };

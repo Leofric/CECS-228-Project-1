@@ -21,7 +21,7 @@ private:
     
 public:
     /*
-     Default constructor
+     The Default constructor
      */
     Card();
     

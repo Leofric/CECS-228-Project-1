@@ -20,7 +20,7 @@ public:
         deck[i].displayCard();
         deck[i] = Card();
         
-        if (value > 10){ //any card 10 or higher have the same value of 10 par game rules
+        if (value > 10){ //Any card 10 or higher have the same value of 10 par game rules
             value = 10;
         }
         return value;
